@@ -55,13 +55,13 @@ namespace MyProjectFriend_
 
         public static bool emailcontrol(string email)
         {
-            SqlCommand tblschlcommand = new SqlCommand("Select UserEmail From TblUsers", connection);//Veritabanından kullanıcılar çekildi
+            SqlCommand tblschlcommand = new SqlCommand("Select UserEmail From TblUsers", connection);
             tblschlcommand.CommandType = CommandType.Text;
             SqlDataReader reader;
 
             connection.Open();
             reader = tblschlcommand.ExecuteReader();
-            while (reader.Read())//eşleşen eposta bulana kadar tüm kullanıcıları gezdi
+            while (reader.Read())
             {
                 if (email == reader["UserEmail"].ToString())
                 {
