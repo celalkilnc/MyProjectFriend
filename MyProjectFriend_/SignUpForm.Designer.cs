@@ -192,6 +192,7 @@
             this.Controls.Add(this.txtEmail);
             this.Controls.Add(this.txtName);
             this.Controls.Add(this.txtSchoolNo);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "SignUpForm";
             this.Text = "SignUpForm";
             this.Load += new System.EventHandler(this.SignUpForm_Load);

@@ -38,7 +38,7 @@
             // 
             // btnSignUp
             // 
-            this.btnSignUp.Location = new System.Drawing.Point(361, 132);
+            this.btnSignUp.Location = new System.Drawing.Point(369, 137);
             this.btnSignUp.Name = "btnSignUp";
             this.btnSignUp.Size = new System.Drawing.Size(96, 29);
             this.btnSignUp.TabIndex = 8;
@@ -49,7 +49,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(207, 107);
+            this.label2.Location = new System.Drawing.Point(215, 112);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(47, 16);
             this.label2.TabIndex = 10;
@@ -58,7 +58,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(199, 79);
+            this.label1.Location = new System.Drawing.Point(207, 84);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(55, 16);
             this.label1.TabIndex = 9;
@@ -66,7 +66,7 @@
             // 
             // txtPassword
             // 
-            this.txtPassword.Location = new System.Drawing.Point(260, 104);
+            this.txtPassword.Location = new System.Drawing.Point(268, 109);
             this.txtPassword.Name = "txtPassword";
             this.txtPassword.PasswordChar = '*';
             this.txtPassword.Size = new System.Drawing.Size(197, 22);
@@ -74,14 +74,14 @@
             // 
             // txtEmail
             // 
-            this.txtEmail.Location = new System.Drawing.Point(260, 76);
+            this.txtEmail.Location = new System.Drawing.Point(268, 81);
             this.txtEmail.Name = "txtEmail";
             this.txtEmail.Size = new System.Drawing.Size(197, 22);
             this.txtEmail.TabIndex = 5;
             // 
             // btnEnter
             // 
-            this.btnEnter.Location = new System.Drawing.Point(260, 132);
+            this.btnEnter.Location = new System.Drawing.Point(268, 137);
             this.btnEnter.Name = "btnEnter";
             this.btnEnter.Size = new System.Drawing.Size(100, 29);
             this.btnEnter.TabIndex = 7;
@@ -100,6 +100,7 @@
             this.Controls.Add(this.txtPassword);
             this.Controls.Add(this.txtEmail);
             this.Controls.Add(this.btnEnter);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
