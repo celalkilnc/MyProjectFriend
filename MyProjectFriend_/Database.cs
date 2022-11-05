@@ -28,7 +28,7 @@ namespace MyProjectFriend_
             command.Parameters.AddWithValue("@id", id);
             command.Parameters.AddWithValue("@name", name);
             command.Parameters.AddWithValue("@surname", surname);
-            command.Parameters.AddWithValue("@schoolId", schoolname);//refSchoolID int(id) değil okul adı(string) alır
+            command.Parameters.AddWithValue("@schoolId", schoolname);//Düzeltme : 'refSchoolID' int(id) değil 'okul adı'(string) alır
             command.Parameters.AddWithValue("@email", email);
             command.Parameters.AddWithValue("@password", password);
             #endregion
@@ -81,7 +81,7 @@ namespace MyProjectFriend_
             connection.Open();
             reader = tblschlcommand.ExecuteReader();
 
-            while (reader.Read())//eşleşen eposta bulana kadar tüm kullanıcıları gezdi
+            while (reader.Read())
             {
                 if (email == reader["UserEmail"].ToString())
                 {
