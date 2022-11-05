@@ -52,7 +52,6 @@ namespace MyProjectFriend_
             }
             connection.Close();
         }
-
         public static bool emailcontrol(string email)
         {
             SqlCommand tblschlcommand = new SqlCommand("Select UserEmail From TblUsers", connection);

@@ -50,5 +50,6 @@ namespace MyProjectFriend_
             else
                 MessageBox.Show("Başarısız");
         }
+
     }
 }

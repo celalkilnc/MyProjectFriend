@@ -87,6 +87,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="SignUpForm.resx">
       <DependentUpon>SignUpForm.cs</DependentUpon>
@@ -114,6 +115,30 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\my_pulse_pinkfloyd.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\my_pulse_pinkfloyd1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\indir.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\indir %281%29.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\uchenler.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\projectphoto1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\projectphoto11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lock.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

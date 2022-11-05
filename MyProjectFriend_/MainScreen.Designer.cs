@@ -40,7 +40,6 @@
             this.button3 = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
             this.button1 = new System.Windows.Forms.Button();
-            this.vScrollBar1 = new System.Windows.Forms.VScrollBar();
             this.panel4.SuspendLayout();
             this.panel3.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -122,7 +121,6 @@
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.panel2.Controls.Add(this.vScrollBar1);
             this.panel2.Controls.Add(this.button3);
             this.panel2.Location = new System.Drawing.Point(191, 40);
             this.panel2.Name = "panel2";
@@ -131,9 +129,9 @@
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(3, 3);
+            this.button3.Location = new System.Drawing.Point(3, 2);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(444, 52);
+            this.button3.Size = new System.Drawing.Size(462, 52);
             this.button3.TabIndex = 8;
             this.button3.Text = "button3";
             this.button3.UseVisualStyleBackColor = true;
@@ -155,13 +153,6 @@
             this.button1.TabIndex = 6;
             this.button1.Text = "button1";
             this.button1.UseVisualStyleBackColor = true;
-            // 
-            // vScrollBar1
-            // 
-            this.vScrollBar1.Location = new System.Drawing.Point(450, 0);
-            this.vScrollBar1.Name = "vScrollBar1";
-            this.vScrollBar1.Size = new System.Drawing.Size(18, 398);
-            this.vScrollBar1.TabIndex = 9;
             // 
             // MainScreen
             // 
@@ -201,6 +192,5 @@
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.VScrollBar vScrollBar1;
     }
 }

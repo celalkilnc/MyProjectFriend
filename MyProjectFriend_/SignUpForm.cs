@@ -56,5 +56,10 @@ namespace MyProjectFriend_
                 errorProvider1.SetError(txtEmail, "Kullanılan E-Posta");
             }
         }
+
+        private void txtEmail_Enter(object sender, EventArgs e)
+        {
+            errorProvider1.Clear();
+        }
     }
 }
