@@ -16,7 +16,7 @@ namespace MyProjectFriend_
         {
             InitializeComponent();
         }
-
+        
         private void Form1_Load(object sender, EventArgs e)
         {
             txtEmail.Focus();
@@ -26,6 +26,17 @@ namespace MyProjectFriend_
         {
             SignUpForm frm = new SignUpForm();
             frm.ShowDialog();
+        }
+        private void btnEnter_Click(object sender, EventArgs e)
+        {
+            string email = txtEmail.Text, password = txtPassword.Text;
+            if (ValueControl(email, password))
+            {
+                MainScreen mainScreen = new MainScreen();
+                mainScreen.Show(); this.Hide();
+            }
+            else
+                MessageBox.Show("Başarısız");
         }
         bool ValueControl(string _email, string _password)
         {
@@ -37,18 +48,6 @@ namespace MyProjectFriend_
             {
                 return false;
             }
-        }
-
-        private void btnEnter_Click(object sender, EventArgs e)
-        {
-            string email = txtEmail.Text, password = txtPassword.Text;
-            if (ValueControl(email, password))
-            {
-                MainScreen mainScreen = new MainScreen();
-                mainScreen.Show(); this.Hide();
-            }
-            else
-                MessageBox.Show("Başarısız");
         }
 
     }

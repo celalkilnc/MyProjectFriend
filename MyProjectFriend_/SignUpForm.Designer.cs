@@ -54,7 +54,7 @@
             this.btnSignUp.BackColor = System.Drawing.Color.Navy;
             this.btnSignUp.BackgroundImage = global::MyProjectFriend_.Properties.Resources.indir__1_;
             this.btnSignUp.ForeColor = System.Drawing.SystemColors.Control;
-            this.btnSignUp.Location = new System.Drawing.Point(347, 375);
+            this.btnSignUp.Location = new System.Drawing.Point(392, 382);
             this.btnSignUp.Name = "btnSignUp";
             this.btnSignUp.Size = new System.Drawing.Size(203, 34);
             this.btnSignUp.TabIndex = 20;
@@ -68,7 +68,7 @@
             this.label6.BackColor = System.Drawing.Color.Transparent;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label6.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.label6.Location = new System.Drawing.Point(343, 313);
+            this.label6.Location = new System.Drawing.Point(388, 320);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(48, 20);
             this.label6.TabIndex = 26;
@@ -80,7 +80,7 @@
             this.label5.BackColor = System.Drawing.Color.Transparent;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label5.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.label5.Location = new System.Drawing.Point(343, 260);
+            this.label5.Location = new System.Drawing.Point(388, 267);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(107, 20);
             this.label5.TabIndex = 25;
@@ -92,7 +92,7 @@
             this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label4.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.label4.Location = new System.Drawing.Point(343, 207);
+            this.label4.Location = new System.Drawing.Point(388, 214);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(74, 20);
             this.label4.TabIndex = 24;
@@ -104,7 +104,7 @@
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label3.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.label3.Location = new System.Drawing.Point(343, 154);
+            this.label3.Location = new System.Drawing.Point(388, 161);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(73, 20);
             this.label3.TabIndex = 23;
@@ -116,7 +116,7 @@
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label2.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.label2.Location = new System.Drawing.Point(343, 101);
+            this.label2.Location = new System.Drawing.Point(388, 108);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(45, 20);
             this.label2.TabIndex = 22;
@@ -128,7 +128,7 @@
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label1.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.label1.Location = new System.Drawing.Point(343, 46);
+            this.label1.Location = new System.Drawing.Point(388, 53);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(125, 20);
             this.label1.TabIndex = 21;
@@ -138,7 +138,7 @@
             // 
             this.cbxSchool.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.cbxSchool.FormattingEnabled = true;
-            this.cbxSchool.Location = new System.Drawing.Point(347, 336);
+            this.cbxSchool.Location = new System.Drawing.Point(392, 343);
             this.cbxSchool.Name = "cbxSchool";
             this.cbxSchool.Size = new System.Drawing.Size(203, 28);
             this.cbxSchool.TabIndex = 19;
@@ -146,7 +146,7 @@
             // txtPasswordAgain
             // 
             this.txtPasswordAgain.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.txtPasswordAgain.Location = new System.Drawing.Point(452, 283);
+            this.txtPasswordAgain.Location = new System.Drawing.Point(497, 290);
             this.txtPasswordAgain.Name = "txtPasswordAgain";
             this.txtPasswordAgain.PasswordChar = '*';
             this.txtPasswordAgain.Size = new System.Drawing.Size(98, 27);
@@ -155,7 +155,7 @@
             // txtPassword
             // 
             this.txtPassword.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.txtPassword.Location = new System.Drawing.Point(347, 283);
+            this.txtPassword.Location = new System.Drawing.Point(392, 290);
             this.txtPassword.Name = "txtPassword";
             this.txtPassword.PasswordChar = '*';
             this.txtPassword.Size = new System.Drawing.Size(98, 27);
@@ -164,7 +164,7 @@
             // txtSurname
             // 
             this.txtSurname.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.txtSurname.Location = new System.Drawing.Point(347, 177);
+            this.txtSurname.Location = new System.Drawing.Point(392, 184);
             this.txtSurname.Name = "txtSurname";
             this.txtSurname.Size = new System.Drawing.Size(203, 27);
             this.txtSurname.TabIndex = 15;
@@ -172,7 +172,7 @@
             // txtEmail
             // 
             this.txtEmail.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.txtEmail.Location = new System.Drawing.Point(347, 230);
+            this.txtEmail.Location = new System.Drawing.Point(392, 237);
             this.txtEmail.Name = "txtEmail";
             this.txtEmail.Size = new System.Drawing.Size(203, 27);
             this.txtEmail.TabIndex = 16;
@@ -181,7 +181,7 @@
             // txtName
             // 
             this.txtName.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.txtName.Location = new System.Drawing.Point(347, 124);
+            this.txtName.Location = new System.Drawing.Point(392, 131);
             this.txtName.Name = "txtName";
             this.txtName.Size = new System.Drawing.Size(203, 27);
             this.txtName.TabIndex = 14;
@@ -189,10 +189,11 @@
             // txtSchoolNo
             // 
             this.txtSchoolNo.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.txtSchoolNo.Location = new System.Drawing.Point(347, 69);
+            this.txtSchoolNo.Location = new System.Drawing.Point(392, 76);
             this.txtSchoolNo.Name = "txtSchoolNo";
             this.txtSchoolNo.Size = new System.Drawing.Size(203, 27);
             this.txtSchoolNo.TabIndex = 13;
+            this.txtSchoolNo.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtSchoolNo_KeyPress);
             // 
             // errorProvider1
             // 
@@ -202,7 +203,7 @@
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox1.Image = global::MyProjectFriend_.Properties.Resources.projectphoto11;
-            this.pictureBox1.Location = new System.Drawing.Point(12, 69);
+            this.pictureBox1.Location = new System.Drawing.Point(27, 76);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(316, 340);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -233,7 +234,7 @@
             this.Controls.Add(this.txtSchoolNo);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "SignUpForm";
-            this.Text = "SignUpForm";
+            this.Text = "Kayıt Ol";
             this.Load += new System.EventHandler(this.SignUpForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

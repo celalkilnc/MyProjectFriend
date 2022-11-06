@@ -61,5 +61,14 @@ namespace MyProjectFriend_
         {
             errorProvider1.Clear();
         }
+
+        private void txtSchoolNo_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar) &&
+        (e.KeyChar != '.'))
+            {
+                e.Handled = true;
+            }
+        }
     }
 }
