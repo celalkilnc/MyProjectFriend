@@ -20,7 +20,7 @@ namespace MyProjectFriend_
 
         private void SignUpForm_Load(object sender, EventArgs e)
         {
-            Database.cbxSchoolDefination(cbxSchool, "tblSchools", "SchoolName");
+            Database.cbxDefination(cbxSchool, "tblSchools", "SchoolName");
         }
         bool valuecontrol()
         {

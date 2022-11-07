@@ -37,9 +37,9 @@ namespace MyProjectFriend_
             command.ExecuteNonQuery();
             connection.Close();
         }
-        public static void cbxSchoolDefination(ComboBox comboBox, string table, string column)
+        public static void cbxDefination(ComboBox comboBox, string table, string column)
         {
-            string commandstring = "Select * From " + table;
+            string commandstring = $"Select * From {table} Order By {column}";
             SqlCommand tblschlcommand = new SqlCommand(commandstring, connection);
             tblschlcommand.CommandType = CommandType.Text;
             SqlDataReader reader;

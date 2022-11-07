@@ -16,20 +16,19 @@ namespace MyProjectFriend_
         {
             InitializeComponent();
         }
-
         private void MainScreen_Load(object sender, EventArgs e)
         {
-            Database.cbxSchoolDefination(cbxSchool, "tblSchools", "SchoolName");
-            Database.cbxSchoolDefination(cbxBranch, "tblBranchs", "BranchName");
+            Database.cbxDefination(cbxSchool, "tblSchools", "SchoolName");
+            Database.cbxDefination(cbxBranch, "tblBranchs", "BranchName");
             User user = User.users[0];
-            label1.Text = user.ID.ToString();
-            label2.Text = user.Name;
-            label3.Text = user.Surname;
+            textBox2.Text = user.ID.ToString();
+            textBox1.Text = user.Name;
+            textBox3.Text = user.Surname;
         }
-
         private void MainScreen_FormClosed(object sender, FormClosedEventArgs e)
         {
             Application.Exit();
         }
+
     }
 }
