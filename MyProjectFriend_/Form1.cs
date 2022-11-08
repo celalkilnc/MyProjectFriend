@@ -16,12 +16,11 @@ namespace MyProjectFriend_
         {
             InitializeComponent();
         }
-        
+
         private void Form1_Load(object sender, EventArgs e)
         {
             txtEmail.Focus();
         }
-
         private void btnSignUp_Click(object sender, EventArgs e)
         {
             SignUpForm frm = new SignUpForm();
@@ -49,6 +48,9 @@ namespace MyProjectFriend_
                 return false;
             }
         }
-
+        private void Form1_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

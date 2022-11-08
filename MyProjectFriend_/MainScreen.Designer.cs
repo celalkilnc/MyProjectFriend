@@ -40,7 +40,8 @@
             this.button3 = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
             this.button1 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
+            this.btnAddProject = new System.Windows.Forms.Button();
+            this.btnSignOut = new System.Windows.Forms.Button();
             this.panel4.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel1.SuspendLayout();
@@ -149,7 +150,7 @@
             this.panel1.Controls.Add(this.button1);
             this.panel1.Location = new System.Drawing.Point(12, 177);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(173, 367);
+            this.panel1.Size = new System.Drawing.Size(173, 325);
             this.panel1.TabIndex = 8;
             // 
             // button1
@@ -163,16 +164,29 @@
             this.button1.Text = "button1";
             this.button1.UseVisualStyleBackColor = false;
             // 
-            // button5
+            // btnAddProject
             // 
-            this.button5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(29)))), ((int)(((byte)(47)))));
-            this.button5.ForeColor = System.Drawing.SystemColors.Control;
-            this.button5.Location = new System.Drawing.Point(782, 12);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(167, 28);
-            this.button5.TabIndex = 17;
-            this.button5.Text = "Proje Ekle";
-            this.button5.UseVisualStyleBackColor = false;
+            this.btnAddProject.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(29)))), ((int)(((byte)(47)))));
+            this.btnAddProject.ForeColor = System.Drawing.SystemColors.Control;
+            this.btnAddProject.Location = new System.Drawing.Point(782, 12);
+            this.btnAddProject.Name = "btnAddProject";
+            this.btnAddProject.Size = new System.Drawing.Size(167, 28);
+            this.btnAddProject.TabIndex = 17;
+            this.btnAddProject.Text = "Proje Ekle";
+            this.btnAddProject.UseVisualStyleBackColor = false;
+            this.btnAddProject.Click += new System.EventHandler(this.button5_Click);
+            // 
+            // btnSignOut
+            // 
+            this.btnSignOut.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(29)))), ((int)(((byte)(47)))));
+            this.btnSignOut.ForeColor = System.Drawing.SystemColors.Control;
+            this.btnSignOut.Location = new System.Drawing.Point(12, 508);
+            this.btnSignOut.Name = "btnSignOut";
+            this.btnSignOut.Size = new System.Drawing.Size(173, 36);
+            this.btnSignOut.TabIndex = 10;
+            this.btnSignOut.Text = "Çıkış Yap";
+            this.btnSignOut.UseVisualStyleBackColor = false;
+            this.btnSignOut.Click += new System.EventHandler(this.btnSignOut_Click);
             // 
             // MainScreen
             // 
@@ -182,7 +196,8 @@
             this.BackgroundImage = global::MyProjectFriend_.Properties.Resources.indir__1_;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(964, 556);
-            this.Controls.Add(this.button5);
+            this.Controls.Add(this.btnSignOut);
+            this.Controls.Add(this.btnAddProject);
             this.Controls.Add(this.cbxBranch);
             this.Controls.Add(this.cbxSchool);
             this.Controls.Add(this.panel4);
@@ -216,6 +231,7 @@
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button btnAddProject;
+        private System.Windows.Forms.Button btnSignOut;
     }
 }

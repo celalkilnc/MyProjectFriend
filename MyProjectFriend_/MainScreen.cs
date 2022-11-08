@@ -30,5 +30,16 @@ namespace MyProjectFriend_
             Application.Exit();
         }
 
+        private void button5_Click(object sender, EventArgs e)
+        {
+            AddProjectForm projectForm = new AddProjectForm();
+            projectForm.ShowDialog();
+        }
+
+        private void btnSignOut_Click(object sender, EventArgs e)
+        {
+            Form1 form1 = new Form1();
+            form1.Show(); this.Hide(); 
+        }
     }
 }
