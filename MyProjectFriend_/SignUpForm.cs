@@ -17,7 +17,7 @@ namespace MyProjectFriend_
             InitializeComponent();
             txtSchoolNo.Focus();
         }
-
+        
         private void SignUpForm_Load(object sender, EventArgs e)
         {
             Database.cbxDefination(cbxSchool, "tblSchools", "SchoolName");

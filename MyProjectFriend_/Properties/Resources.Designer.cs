@@ -73,6 +73,16 @@ namespace MyProjectFriend_.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap blurred_pop_abstract_background_with_vivid_primary_colors {
+            get {
+                object obj = ResourceManager.GetObject("blurred-pop-abstract-background-with-vivid-primary-colors", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap indir {
             get {
                 object obj = ResourceManager.GetObject("indir", resourceCulture);
