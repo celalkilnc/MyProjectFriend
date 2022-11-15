@@ -35,6 +35,7 @@ namespace MyProjectFriend_
 
         private void btnSignUp_Click(object sender, EventArgs e)
         {
+            //Yeni kullanıcı oluşturma
             string _email = txtEmail.Text;
             if (!Database.emailcontrol(_email))
             {
@@ -64,8 +65,8 @@ namespace MyProjectFriend_
 
         private void txtSchoolNo_KeyPress(object sender, KeyPressEventArgs e)
         {
-            if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar) &&
-        (e.KeyChar != '.'))
+            //ID girişi için harf engelleme
+            if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar) && (e.KeyChar != '.'))
             {
                 e.Handled = true;
             }

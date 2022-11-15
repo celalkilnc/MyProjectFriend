@@ -28,25 +28,15 @@ namespace MyProjectFriend_
         }
         private void btnEnter_Click(object sender, EventArgs e)
         {
+            //Bilgilerin kontrolü ve ana ekranı açma
             string email = txtEmail.Text, password = txtPassword.Text;
-            if (ValueControl(email, password))
+            if (Database.enteranceControl(email, password))
             {
                 MainScreen mainScreen = new MainScreen();
                 mainScreen.Show(); this.Hide();
             }
             else
                 MessageBox.Show("Başarısız");
-        }
-        bool ValueControl(string _email, string _password)
-        {
-            if (Database.enteranceControl(_email, _password))
-            {
-                return true;
-            }
-            else
-            {
-                return false;
-            }
         }
         private void Form1_FormClosed(object sender, FormClosedEventArgs e)
         {
