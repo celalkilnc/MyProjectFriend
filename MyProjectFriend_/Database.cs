@@ -55,7 +55,7 @@ namespace MyProjectFriend_
             connection.Open();
             reader = commandMethod("Select UserEmail From TblUsers").ExecuteReader();
             while (reader.Read())
-            {
+            {   
                 if (email == reader["UserEmail"].ToString())
                 {
                     connection.Close();
@@ -66,7 +66,7 @@ namespace MyProjectFriend_
             reader.Close();
             connection.Close();
             return false;
-        }
+        }  
         public static bool enteranceControl(string email, string password)
         {
             connection.Open();
@@ -103,7 +103,7 @@ namespace MyProjectFriend_
         }
         static SqlCommand commandMethod(string query)
         {
-            //command kullanımını merkezleştirip tekrarlayan kodları azaltmak
+            //command kullanımını merkezleştirp tekrarlayan kodları azaltmak
             SqlCommand tblschlcommand = new SqlCommand(query, connection);
             tblschlcommand.CommandType = CommandType.Text;
             return tblschlcommand;
