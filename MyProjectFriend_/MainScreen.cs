@@ -25,11 +25,6 @@ namespace MyProjectFriend_
             textBox1.Text = user.Name;
             textBox3.Text = user.Surname;
         }
-        private void MainScreen_FormClosed(object sender, FormClosedEventArgs e)
-        {
-            Application.Exit();
-        }
-
         private void button5_Click(object sender, EventArgs e)
         {
             AddProjectForm projectForm = new AddProjectForm();
@@ -41,5 +36,10 @@ namespace MyProjectFriend_
             Form1 form1 = new Form1();
             form1.Show(); this.Hide(); 
         }
+        private void MainScreen_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Application.Exit();
+        }
+
     }
 }

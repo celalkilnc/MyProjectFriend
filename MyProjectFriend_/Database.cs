@@ -108,5 +108,6 @@ namespace MyProjectFriend_
             tblschlcommand.CommandType = CommandType.Text;
             return tblschlcommand;
         }
+
     }
 }

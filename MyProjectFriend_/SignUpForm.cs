@@ -62,7 +62,6 @@ namespace MyProjectFriend_
         {
             errorProvider1.Clear();
         }
-
         private void txtSchoolNo_KeyPress(object sender, KeyPressEventArgs e)
         {
             //ID girişi için harf engelleme
