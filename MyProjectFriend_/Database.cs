@@ -11,7 +11,7 @@ namespace MyProjectFriend_
 {
     internal class Database
     {
-        const string connectionString = @"Data Source=LAPTOP-60OVNJGF;Initial Catalog=LibraryTest;Integrated Security=True";
+        const string connectionString = "Connection String";
         static SqlConnection connection = new SqlConnection(connectionString);
         static SqlCommand command;
         static SqlDataReader reader;
